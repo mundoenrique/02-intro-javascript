@@ -28,6 +28,7 @@ function Functions() {
 	};
 
 	// Función de flecha con return implicito sin parametros
+	// Si returna un objeto se debe encerrar en parentesis el onjeto
 	const usuario2 = () => ({
 		uid: 'ABC124',
 		userName: 'yayita',
