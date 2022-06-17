@@ -4,6 +4,7 @@ import LiteralObjects from './bases/03-LiteralObjects';
 import Arrays from './bases/04-Arrays';
 import Functions from './bases/05-Functions';
 import ImportExportFuncions from './bases/08-ImportExportFuncions';
+import Promises from './bases/09-Promises';
 
 function App() {
 	return (
@@ -27,6 +28,9 @@ function App() {
 			<br />
 			<hr />
 			<ImportExportFuncions />
+			<br />
+			<hr />
+			<Promises />
 		</>
 	);
 }
