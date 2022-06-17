@@ -45,7 +45,7 @@ function Functions() {
 
 	return (
 		<>
-			<h2>Functiones</h2>
+			<h2>Funciones</h2>
 			<p>Función saludar 1: {saludar1('Yajaira')}</p>
 			<p>Función saludar 2: {saludar2('Shamyr')}</p>
 			<p>Función saludar 3: {saludar3('Isabel')}</p>
