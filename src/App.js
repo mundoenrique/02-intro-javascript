@@ -1,6 +1,7 @@
 import LetAndConst from './bases/01-letAndConst';
 import TemplateString from './bases/02-TemplateString';
 import LiteralObjects from './bases/03-LiteralObjects';
+import Arrays from './bases/04-Arrays';
 
 function App() {
 	return (
@@ -15,6 +16,9 @@ function App() {
 			<br />
 			<hr />
 			<LiteralObjects />
+			<br />
+			<hr />
+			<Arrays />
 		</>
 	);
 }
