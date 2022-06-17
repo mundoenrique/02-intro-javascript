@@ -1,4 +1,4 @@
-function LetAndConst() {
+export default function LetAndConst() {
 	const nombre = 'Enrique';
 	const apellido = 'Peñaloza';
 	let valorDado = 5;
@@ -20,5 +20,3 @@ function LetAndConst() {
 		</>
 	);
 }
-
-export default LetAndConst;

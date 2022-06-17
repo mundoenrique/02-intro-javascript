@@ -1,4 +1,4 @@
-function Functions() {
+export default function Functions() {
 	// Función nombrada
 	function saludar1(nombre) {
 		return `Hola ${nombre}`;
@@ -56,5 +56,3 @@ function Functions() {
 		</>
 	);
 }
-
-export default Functions;

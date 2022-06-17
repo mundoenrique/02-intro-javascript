@@ -1,4 +1,4 @@
-function TemplateString() {
+export default function TemplateString() {
 	const nombre = 'Enrique';
 	const apellido = 'Peñaloza';
 	const nombreCompleto = nombre + ' ' + apellido;
@@ -19,5 +19,3 @@ function TemplateString() {
 		</>
 	);
 }
-
-export default TemplateString;

@@ -1,4 +1,4 @@
-function UnstrucObj() {
+export default function UnstrucObj() {
 	const persona = {
 		nombre: 'Enrique',
 		edad: 45,
@@ -39,5 +39,3 @@ function UnstrucObj() {
 		</>
 	);
 }
-
-export default UnstrucObj;

@@ -1,4 +1,4 @@
-function LiteralObjects() {
+export default function LiteralObjects() {
 	const persona = {
 		nombre: 'Enrique',
 		apellido: 'Peñaloza',
@@ -25,5 +25,3 @@ function LiteralObjects() {
 		</>
 	);
 }
-
-export default LiteralObjects;
