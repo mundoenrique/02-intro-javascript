@@ -1,5 +1,5 @@
-import './App.css';
 import LetAndConst from './bases/01-letAndConst';
+import TemplateString from './bases/02-TemplateString';
 
 function App() {
 	return (
@@ -8,6 +8,9 @@ function App() {
 			<br />
 			<hr />
 			<LetAndConst />
+			<br />
+			<hr />
+			<TemplateString />
 		</>
 	);
 }
