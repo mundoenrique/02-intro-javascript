@@ -7,9 +7,7 @@ function UnstrucObj() {
 
 	const { nombre, edad, clave } = persona;
 
-	const retornaPersona = ({ nombre, rango = 'Capitán' }) => {
-		return { nombre, rango };
-	};
+	const retornaPersona = ({ nombre, rango = 'Capitán' }) => ({ nombre, rango });
 
 	const useContext = ({ edad, clave }) => {
 		return {
