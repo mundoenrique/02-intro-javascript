@@ -1,5 +1,5 @@
 import './App.css';
-import LetAndConst from './bases/LetAndConst';
+import LetAndConst from './bases/01-letAndConst';
 
 function App() {
 	return (
