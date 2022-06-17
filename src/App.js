@@ -2,6 +2,7 @@ import LetAndConst from './bases/01-letAndConst';
 import TemplateString from './bases/02-TemplateString';
 import LiteralObjects from './bases/03-LiteralObjects';
 import Arrays from './bases/04-Arrays';
+import Functions from './bases/05-Functions';
 
 function App() {
 	return (
@@ -19,6 +20,9 @@ function App() {
 			<br />
 			<hr />
 			<Arrays />
+			<br />
+			<hr />
+			<Functions />
 		</>
 	);
 }
