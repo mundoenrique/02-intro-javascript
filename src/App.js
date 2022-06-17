@@ -3,6 +3,7 @@ import TemplateString from './bases/02-TemplateString';
 import LiteralObjects from './bases/03-LiteralObjects';
 import Arrays from './bases/04-Arrays';
 import Functions from './bases/05-Functions';
+import ImportExportFuncions from './bases/08-ImportExportFuncions';
 
 function App() {
 	return (
@@ -23,6 +24,9 @@ function App() {
 			<br />
 			<hr />
 			<Functions />
+			<br />
+			<hr />
+			<ImportExportFuncions />
 		</>
 	);
 }
