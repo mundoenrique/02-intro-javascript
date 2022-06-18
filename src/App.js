@@ -7,6 +7,7 @@ import ImportExportFuncions from './bases/08-ImportExportFuncions';
 import Promises from './bases/09-Promises';
 import FetchApi from './bases/10-FetchApi';
 import AsyncAwait from './bases/11-AsyncAwait';
+import TernaryOperator from './bases/12-TernaryOperator';
 
 function App() {
 	return (
@@ -33,12 +34,15 @@ function App() {
 			<br />
 			<hr />
 			<Promises />
-			{/* <br />
+			<br />
 			<hr />
-			<FetchApi /> */}
+			<FetchApi />
 			<br />
 			<hr />
 			<AsyncAwait />
+			<br />
+			<hr />
+			<TernaryOperator />
 		</>
 	);
 }
