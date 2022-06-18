@@ -6,6 +6,7 @@ import Functions from './bases/05-Functions';
 import ImportExportFuncions from './bases/08-ImportExportFuncions';
 import Promises from './bases/09-Promises';
 import FetchApi from './bases/10-FetchApi';
+import AsyncAwait from './bases/11-AsyncAwait';
 
 function App() {
 	return (
@@ -32,9 +33,12 @@ function App() {
 			<br />
 			<hr />
 			<Promises />
+			{/* <br />
+			<hr />
+			<FetchApi /> */}
 			<br />
 			<hr />
-			<FetchApi />
+			<AsyncAwait />
 		</>
 	);
 }
