@@ -35,7 +35,9 @@ export async function getImg() {
 		const { url } = await data.images.original;
 
 		const img = document.getElementById('img-data');
-		img.src = url;
+		if (img) {
+			img.src = url;
+		}
 
 		return url;
 	} catch (error) {
