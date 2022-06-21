@@ -1,21 +1,8 @@
-import { apiKey } from '../helpers/globalVar';
+import { requestImage } from '../helpers/globalVar';
 
-const request = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`);
+requestImage();
 
 export default function FetchApi() {
-	/* request.then(resp => {
-		resp.json().then(console.log)
-	})
-	request.catch(console.warn); */
-	request
-		.then((resp) => resp.json())
-		.then(({ data }) => {
-			const { url } = data.images.original;
-			const img = document.getElementById('my-img');
-			img.src = url;
-		})
-		.catch(console.warn);
-
 	return (
 		<>
 			<h2>fetchApi</h2>
