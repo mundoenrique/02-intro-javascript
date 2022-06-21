@@ -1,31 +1,31 @@
+const persona = {
+	nombre: 'Enrique',
+	edad: 45,
+	clave: 'Ironman',
+};
+
+const { nombre, edad, clave } = persona;
+
+const retornaPersona = ({ nombre, rango = 'Capitán' }) => ({ nombre, rango });
+
+const usContext = ({ edad, clave }) => {
+	return {
+		nombreClave: clave,
+		anios: edad,
+		latLng: {
+			lat: 14.456464,
+			lng: -18.646464,
+		},
+	};
+};
+
+const {
+	nombreClave,
+	anios,
+	latLng: { lat, lng },
+} = usContext(persona);
+
 export default function UnstrucObj() {
-	const persona = {
-		nombre: 'Enrique',
-		edad: 45,
-		clave: 'Ironman',
-	};
-
-	const { nombre, edad, clave } = persona;
-
-	const retornaPersona = ({ nombre, rango = 'Capitán' }) => ({ nombre, rango });
-
-	const useContext = ({ edad, clave }) => {
-		return {
-			nombreClave: clave,
-			anios: edad,
-			latLng: {
-				lat: 14.456464,
-				lng: -18.646464,
-			},
-		};
-	};
-
-	const {
-		nombreClave,
-		anios,
-		latLng: { lat, lng },
-	} = useContext(persona);
-
 	return (
 		<>
 			<h2>Desestructuración de objetos</h2>
