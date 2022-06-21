@@ -5,10 +5,10 @@ describe('Pruebas en <TemplateString />', () => {
 		//Arrange
 		const nombre = 'Enrique';
 		const apellido = 'Peñaloza';
-		const nombreCompleto2 = `${nombre} ${apellido}`;
+		const nombreCompleto = `${nombre} ${apellido}`;
 
-		const greeting = getGreeting(nombreCompleto2);
+		const greeting = getGreeting(nombreCompleto);
 
-		console.log(greeting);
+		expect(greeting).toBe(`Bienvenido ${nombreCompleto}`);
 	});
 });
