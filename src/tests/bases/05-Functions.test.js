@@ -1,4 +1,4 @@
-import { activeUser, getUser2 } from '../bases/05-Functions';
+import { activeUser, getUser2 } from '../../bases/05-Functions';
 
 describe('Prueba en <Functions />', () => {
 	test('getUser2 debe retornar un objeto', () => {

@@ -1,4 +1,4 @@
-import { getGreeting } from '../bases/02-TemplateString';
+import { getGreeting } from '../../bases/02-TemplateString';
 
 describe('Pruebas en <TemplateString />', () => {
 	test('getGreeting debe retornar "Bienvenido Enrique Peñaloza"', () => {

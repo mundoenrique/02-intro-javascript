@@ -1,4 +1,4 @@
-import { retornaArreglo } from '../bases/07-UnstrucArr';
+import { retornaArreglo } from '../../bases/07-UnstrucArr';
 
 describe('Pruebas en <UnstrucArr />', () => {
 	test('Debe retornar un string y un número', () => {

@@ -1,8 +1,8 @@
 import {
 	getHeroreById,
 	getHeroreByOwner,
-} from '../bases/08-ImportExportFuncions';
-import { heroes } from '../data/heroes';
+} from '../../bases/08-ImportExportFuncions';
+import { heroes } from '../../data/heroes';
 
 describe('Pruebas en <ImportExportFuncions />', () => {
 	test('getHeroreById dede retornar u heroe dado in id', () => {
