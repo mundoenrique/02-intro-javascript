@@ -1,7 +1,7 @@
 import { getHeroreById } from './08-ImportExportFuncions';
 
 export default function Promises() {
-	heroePrmise(1)
+	heroePromise(1)
 		.then((data) => {
 			const paraghap = document.getElementById('heroe');
 			paraghap.append(JSON.stringify(data));
@@ -16,7 +16,7 @@ export default function Promises() {
 	);
 }
 
-export const heroePrmise = (id) => {
+export const heroePromise = (id) => {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
 			const heroe = getHeroreById(id);
