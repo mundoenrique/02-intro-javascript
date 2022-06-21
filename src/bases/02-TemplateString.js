@@ -1,12 +1,12 @@
+export const getGreeting = (usuario) => {
+	return `Bienvenido ${usuario}`;
+};
+
 export default function TemplateString() {
 	const nombre = 'Enrique';
 	const apellido = 'Peñaloza';
 	const nombreCompleto = nombre + ' ' + apellido;
 	const nombreCompleto2 = `${nombre} ${apellido}`;
-
-	const getSaludo = (usuario) => {
-		return `Bienvenido ${usuario}`;
-	};
 
 	return (
 		<>
@@ -15,7 +15,7 @@ export default function TemplateString() {
 			<p>Apellido: {apellido}</p>
 			<p>Nombre completo: {nombreCompleto} </p>
 			<p>Nombre completo 2: {nombreCompleto2} </p>
-			<p>Saludo: {getSaludo(nombreCompleto2)} </p>
+			<p>Saludo: {getGreeting(nombreCompleto2)} </p>
 		</>
 	);
 }
