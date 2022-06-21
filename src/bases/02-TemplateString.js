@@ -1,13 +1,9 @@
-export const getGreeting = (usuario) => {
-	return `Bienvenido ${usuario}`;
-};
+const nombre = 'Enrique';
+const apellido = 'Peñaloza';
+const nombreCompleto = nombre + ' ' + apellido;
+const nombreCompleto2 = `${nombre} ${apellido}`;
 
 export default function TemplateString() {
-	const nombre = 'Enrique';
-	const apellido = 'Peñaloza';
-	const nombreCompleto = nombre + ' ' + apellido;
-	const nombreCompleto2 = `${nombre} ${apellido}`;
-
 	return (
 		<>
 			<h2>Manejo de cadenas de texto</h2>
@@ -19,3 +15,7 @@ export default function TemplateString() {
 		</>
 	);
 }
+
+export const getGreeting = (usuario) => {
+	return `Bienvenido ${usuario}`;
+};

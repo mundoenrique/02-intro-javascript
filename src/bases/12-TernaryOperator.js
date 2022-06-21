@@ -1,9 +1,9 @@
-export default function TernaryOperator() {
-	const activo = true;
-	const mensaje = !activo ? 'Activo' : 'Incativo';
-	const mensaje2 = activo && 'Activo';
-	const mensaje3 = !activo || 'Inactivo';
+const activo = true;
+const mensaje = !activo ? 'Activo' : 'Incativo';
+const mensaje2 = activo && 'Activo';
+const mensaje3 = !activo || 'Inactivo';
 
+export default function TernaryOperator() {
 	return (
 		<>
 			<h2>Operador ternario</h2>

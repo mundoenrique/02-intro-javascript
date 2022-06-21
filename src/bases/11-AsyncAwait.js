@@ -1,8 +1,8 @@
 import { getImg } from '../helpers/globalVar';
 
-export default function AsyncAwait() {
-	getImg();
+getImg();
 
+export default function AsyncAwait() {
 	return (
 		<>
 			<h2>Async Await</h2>

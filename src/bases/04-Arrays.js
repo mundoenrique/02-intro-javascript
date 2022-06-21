@@ -1,12 +1,13 @@
-export default function Arrays() {
-	const array1 = [1, 2, 3, 4];
-	const array2 = array1;
-	array2.push(5);
-	const array3 = [...array1, 6];
-	const array4 = array3.map((val) => {
-		return val * 2;
-	});
+const array1 = [1, 2, 3, 4];
+const array2 = array1;
+array2.push(5);
+const array3 = [...array1, 6];
 
+const array4 = array3.map((val) => {
+	return val * 2;
+});
+
+export default function Arrays() {
 	return (
 		<>
 			<h2>Manejo de Arreglos</h2>

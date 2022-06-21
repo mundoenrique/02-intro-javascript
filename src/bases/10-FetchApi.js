@@ -1,10 +1,8 @@
 import { apiKey } from '../helpers/globalVar';
 
-export default function FetchApi() {
-	const request = fetch(
-		`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`
-	);
+const request = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`);
 
+export default function FetchApi() {
 	/* request.then(resp => {
 		resp.json().then(console.log)
 	})

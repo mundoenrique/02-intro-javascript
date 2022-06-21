@@ -1,3 +1,18 @@
+export default function Functions() {
+	return (
+		<>
+			<h2>Funciones</h2>
+			<p>Función saludar 1: {greeting1('Yajaira')}</p>
+			<p>Función saludar 2: {greeting2('Shamyr')}</p>
+			<p>Función saludar 3: {greeting3('Isabel')}</p>
+			<p>Función saludar 4: {greeting4('Ruth')}</p>
+			<p>Función usuario 1: {JSON.stringify(getUser1())}</p>
+			<p>Función usuario 2: {JSON.stringify(getUser2())}</p>
+			<p>Función usuario activo: {JSON.stringify(activeUser('tere'))}</p>
+		</>
+	);
+}
+
 // Función nombrada
 function greeting1(nombre) {
 	return `Hola ${nombre}`;
@@ -41,18 +56,3 @@ export const activeUser = (user) => ({
 	user,
 	userName: user,
 });
-
-export default function Functions() {
-	return (
-		<>
-			<h2>Funciones</h2>
-			<p>Función saludar 1: {greeting1('Yajaira')}</p>
-			<p>Función saludar 2: {greeting2('Shamyr')}</p>
-			<p>Función saludar 3: {greeting3('Isabel')}</p>
-			<p>Función saludar 4: {greeting4('Ruth')}</p>
-			<p>Función usuario 1: {JSON.stringify(getUser1())}</p>
-			<p>Función usuario 2: {JSON.stringify(getUser2())}</p>
-			<p>Función usuario activo: {JSON.stringify(activeUser('tere'))}</p>
-		</>
-	);
-}
